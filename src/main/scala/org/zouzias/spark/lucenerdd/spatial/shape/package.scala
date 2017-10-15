@@ -20,7 +20,7 @@ import java.io.StringReader
 
 import com.vividsolutions.jts.geom.{Coordinate, GeometryFactory}
 import org.locationtech.spatial4j.shape.Shape
-import org.zouzias.spark.lucenerdd.spatial.shape.context.ContextLoader
+import org.zouzias.spark.lucenerdd.spatial.commons.context.ContextLoader
 
 
 package object shape extends ContextLoader{
